@@ -7,7 +7,7 @@
 
 🔥 Want more practical AI automations and playbooks?
 
-* Follow on X/Twitter: **@sevaustinov** — `https://x.com/sevaustinov`
+* Follow on X/Twitter: **[@sevaustinov](https://x.com/sevaustinov)**
 
 
 ---
@@ -77,11 +77,11 @@ Personal Super Agent/
 ## 🚀 Quick Start
 
 
-1. Install Cursor → `https://cursor.sh`
+1. Install Cursor → [https://cursor.sh](https://cursor.sh)
 2. Clone this template
 
 ```bash
-git clone <this-repository-url>
+git clone https://github.com/VsevolodUstinov/Personal-Super-Agent.git
 cd Personal-Super-Agent
 ```
 
@@ -290,7 +290,7 @@ Cursor has a free tier; Pro unlocks more.
 
 **Is setup hard?**
 No. Do this:
-1) Download and install Cursor (`https://cursor.sh`)
+1) Download and install Cursor ([https://cursor.sh](https://cursor.sh))
 2) Open Cursor
 3) Create a new folder for this project on your disk
 4) In Cursor: File → Open Folder… and select that folder
@@ -320,7 +320,7 @@ Turn AI from a chat partner into a real digital operator.
 
 ## 📢 Stay in the loop
 
-* Follow on X/Twitter: **@sevayustinov** — `https://x.com/sevayustinov`
+* Follow on X/Twitter: **[@sevaustinov](https://x.com/sevaustinov)**
 * ⭐ If this helped, consider starring the repo!
 
 
