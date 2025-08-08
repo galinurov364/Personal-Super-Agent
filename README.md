@@ -3,14 +3,10 @@
 > From chat to a real Super Agent. Move to Cursor and get an AI that works with your files, writes and runs code, and automates your life.
 
 
----
-
 🔥 Want more practical AI automations and playbooks?
 
-* Follow on X/Twitter: **[@sevaustinov](https://x.com/sevaustinov)**
+* Follow on X/Twitter: **@sevaustinov** — `https://x.com/sevaustinov`
 
-
----
 
 ## 🤔 Why not just use ChatGPT?
 
@@ -77,23 +73,24 @@ Personal Super Agent/
 ## 🚀 Quick Start
 
 
-1. Install Cursor → [https://cursor.sh](https://cursor.sh)
+
+1. Install Cursor → `https://cursor.sh`
 2. Clone this template
 
 ```bash
-git clone https://github.com/VsevolodUstinov/Personal-Super-Agent.git
+git clone <this-repository-url>
 cd Personal-Super-Agent
 ```
 
 
-3. Open in Cursor
+3\. Open in Cursor
 
 ```bash
 cursor .
 ```
 
 
-4. Start talking to your Super Agent
+4\. Start talking to your Super Agent
 
 * “Help me create a monthly budget”
 * “Add my latest blood test results”
@@ -218,8 +215,6 @@ AI: Checking your spend…
 * You prefer keeping everything in your head
 
 
----
-
 ## 🔍 Open-Source Superpower: Don’t build from scratch
 
 Why code for weeks if someone already did it? Your Super Agent can locate and adapt existing open-source projects under your goals.
@@ -254,6 +249,7 @@ Why code for weeks if someone already did it? Your Super Agent can locate and ad
 ### ⚡ Typical flow
 
 
+
 1. Describe your task
 2. The AI researches GitHub
 3. Picks candidates and explains trade-offs
@@ -267,8 +263,6 @@ Why code for weeks if someone already did it? Your Super Agent can locate and ad
 * Health data: weeks → hours
 
 
----
-
 ## 🛠️ Exact numeric checks (critical!)
 
 LLMs often make mistakes with number ranges. This template includes a precise checker:
@@ -281,8 +275,6 @@ python3 scripts/check_range.py 185 125 200 92 70 100
 Use it for health metrics, budgets, targets — anytime you need “is X between Y and Z?”.
 
 
----
-
 ## 💬 FAQ
 
 **Is this free?**
@@ -290,17 +282,20 @@ Cursor has a free tier; Pro unlocks more.
 
 **Is setup hard?**
 No. Do this:
-1) Download and install Cursor ([https://cursor.sh](https://cursor.sh))
-2) Open Cursor
-3) Create a new folder for this project on your disk
-4) In Cursor: File → Open Folder… and select that folder
-5) Give this repo link to Cursor and ask: "Guide me through the next steps"
-6) Follow the steps it proposes
+
+
+1. Download and install Cursor (`https://cursor.sh`)
+2. Open Cursor
+3. Create a new folder for this project on your disk
+4. In Cursor: File → Open Folder… and select that folder
+5. Give this repo link to Cursor and ask: "Guide me through the next steps"
+6. Follow the steps it proposes
 
 **Is this limited to Cursor?**
 No. These are just files and scripts — use any tools you like:
-- VS Code (incl. Cloud Code), Obsidian, or any editor + terminal
-- Cursor simply gives you the best AI workflow for working with files and code
+
+* VS Code (incl. Cloud Code), Obsidian, or any editor + terminal
+* Cursor simply gives you the best AI workflow for working with files and code
 
 **Is my data safe?**
 Everything is local on your machine.
@@ -309,18 +304,14 @@ Everything is local on your machine.
 Yes — Cursor supports all major platforms.
 
 
----
-
 ## 🎉 Welcome to your personal AI operating system
 
 Turn AI from a chat partner into a real digital operator.
 
 
----
-
 ## 📢 Stay in the loop
 
-* Follow on X/Twitter: **[@sevaustinov](https://x.com/sevaustinov)**
+* Follow on X/Twitter: **@sevaustinov** — `https://x.com/sevaustinov`
 * ⭐ If this helped, consider starring the repo!
 
 
