@@ -1,0 +1,44 @@
+name: Process Training Logs
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  process-training:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'training-log')
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          pip install requests
+          
+      - name: Process training log
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/process_training_issue.py "${{ github.event.issue.number }}"
+          
+      - name: Update training statistics
+        run: |
+          echo "Updating training statistics..."
+          # Здесь можно добавить логику обновления статистики
+          
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update training logs from issue #${{ github.event.issue.number }}"
+          
+      - name: Push changes
+        run: git push
